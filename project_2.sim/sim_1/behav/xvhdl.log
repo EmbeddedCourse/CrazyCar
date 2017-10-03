@@ -1,0 +1,24 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_VCOMP.vhd" into library xpm
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.ip_user_files/bd/ForegroundBRAM/hdl/ForegroundBRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ForegroundBRAM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/Foreground_Address_Gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Address_counter_Foreground
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/imports/hdl/ForegroundBRAM_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ForegroundBRAM_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.ip_user_files/bd/clk/hdl/clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/ref_pack.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/Foreground_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BramForeground
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/Selector_backforth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FgndBgndSel
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/Background.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Background
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/VGA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_controller_640_60
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/imports/hdl/clk_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_wrapper
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sources_1/new/test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_ref
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.srcs/sim_1/new/tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_vga

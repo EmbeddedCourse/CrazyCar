@@ -1,0 +1,19 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_base.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_dpdistram.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_dprom.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_sdpram.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_spram.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_sprom.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+sv xil_defaultlib  "C:/Xilinx/Vivado/2016.1/data/ip/xpm/xpm_memory/hdl/xpm_memory_tdpram.sv" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+verilog blk_mem_gen_v8_3_2  "../../../project_2.ip_user_files/ipstatic/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+verilog xil_defaultlib  "../../../project_2.ip_user_files/bd/ForegroundBRAM/ip/ForegroundBRAM_blk_mem_gen_0_0/sim/ForegroundBRAM_blk_mem_gen_0_0.v" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+verilog xil_defaultlib  "../../../project_2.ip_user_files/bd/clk/ip/clk_clk_wiz_0_1/clk_clk_wiz_0_1_clk_wiz.v" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+verilog xil_defaultlib  "../../../project_2.ip_user_files/bd/clk/ip/clk_clk_wiz_0_1/clk_clk_wiz_0_1.v" --include "../../../project_2.ip_user_files/ipstatic/clk_wiz_v5_3"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

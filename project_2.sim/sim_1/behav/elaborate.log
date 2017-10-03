@@ -1,0 +1,42 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.1/bin/unwrapped/win64.o/xelab.exe -wto f4e1ff91675f40729d740623d5c2986d --debug typical --relax --mt 2 -L xil_defaultlib -L xpm -L blk_mem_gen_v8_3_2 -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_vga_behav xil_defaultlib.tb_vga xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.ip_user_files/ipstatic/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2414]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.ip_user_files/ipstatic/blk_mem_gen_v8_3/simulation/blk_mem_gen_v8_3.v:2415]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.vga_ref_pack
+Compiling package unisim.vcomponents
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.Address_counter_Foreground [address_counter_foreground_defau...]
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_output_stage(...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_output_stage(...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_softecc_outpu...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2_mem_module(C_...
+Compiling module blk_mem_gen_v8_3_2.blk_mem_gen_v8_3_2(C_FAMILY="art...
+Compiling module xil_defaultlib.ForegroundBRAM_blk_mem_gen_0_0
+Compiling architecture structure of entity xil_defaultlib.ForegroundBRAM [foregroundbram_default]
+Compiling architecture structure of entity xil_defaultlib.ForegroundBRAM_wrapper [foregroundbram_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.BramForeground [bramforeground_default]
+Compiling architecture behavioral of entity xil_defaultlib.FgndBgndSel [fgndbgndsel_default]
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME2_ADV(CLKFBOUT_MULT_F=9.125...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.clk_clk_wiz_0_1_clk_wiz
+Compiling module xil_defaultlib.clk_clk_wiz_0_1
+Compiling architecture structure of entity xil_defaultlib.clk [clk_default]
+Compiling architecture structure of entity xil_defaultlib.clk_wrapper [clk_wrapper_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_controller_640_60 [vga_controller_640_60_default]
+Compiling architecture behavioral of entity xil_defaultlib.Background [background_default]
+Compiling architecture behavioral of entity xil_defaultlib.vga_ref [vga_ref_default]
+Compiling architecture tb_vga_arch of entity xil_defaultlib.tb_vga
+Built simulation snapshot tb_vga_behav
