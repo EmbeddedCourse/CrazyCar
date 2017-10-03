@@ -25,6 +25,8 @@ signal grey_reg,grey_next : std_logic_vector (18 downto 0) ;
 signal green1_reg,green1_next : std_logic_vector (18 downto 0) ;
 signal black_reg1,black_next1 : std_logic_vector (18 downto 0) ;
 signal black_reg2,black_next2 : std_logic_vector (18 downto 0) ;
+signal black_line_reg,black_line_next : std_logic_vector (18 downto 0) ;
+signal white_line_reg,white_line_next : std_logic_vector (18 downto 0) ;
 
 constant green_field_1      	: std_logic_vector := "0000000000011011100"; --220
 constant green_field_2      	: std_logic_vector := "0000000001001111111" ; --639
@@ -32,8 +34,6 @@ constant black_strip_1      	: std_logic_vector := "0000000000011011111"; --223
 constant black_strip_2      	: std_logic_vector := "0000000000110100111"; --423
 constant grey_road              : std_logic_vector := "0000000000110100100"; --420	
 constant vis_screen_end         : integer := 307199;			
-
-
 
 begin
   seq : process(clk,rst)
@@ -86,14 +86,24 @@ begin
                              black_next2<=black_reg2+640;
                           end if;            
                       elsif active ='0' and not_active ='1' then
-                           pixel_count_next<=(others => '0');
+                          -- pixel_count_next<=(others => '0');
+                           
+                           
+                             if (pixel_count_reg >= "1001010110101111111"  ) then --(307199-640)
+                                 pixel_count_next<=(others => '0');
+                           else                         
+                            pixel_count_next<=pixel_count_reg+640;
+                          end if;
+                           
+                           
+                           
+                           
                       else
                            pixel_count_next<=pixel_count_reg; 
                       end if;             
     end process;
-    
-    
-                     
+ 
+
                      
  bg : process(pixel_count_reg,green0_reg,grey_reg,green1_reg,black_reg1,black_reg2,active,not_active)
             begin

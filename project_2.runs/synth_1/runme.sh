@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/mi3105is-s/Program/Vga_new_test/project_2/project_2.runs/synth_1'
+HD_PWD='C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

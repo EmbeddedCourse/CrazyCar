@@ -1,0 +1,9 @@
+{
+   guistr: "# # String gsaved with Nlview 6.5.12  2016-01-29 bk=1.3547 VDI=39 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 2 -y -330 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y -250 -defaultsOSRD
+preplace inst gpu_0 -pg 1 -lvl 3 -y -170 -defaultsOSRD
+levelinfo -pg 1 -250 -160 270 580 680 -top -540 -bot 130
+",
+}

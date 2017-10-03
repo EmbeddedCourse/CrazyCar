@@ -1,0 +1,1337 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 4548
+
+Current time: 	10/3/17 7:37:54 PM CEST
+Time zone: 	Central European Time (Europe/Berlin)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.1/tps/win64/jre
+
+User name: 	mi3105is-s
+User home directory: C:/Users/mi3105is-s
+User working directory: C:/Users/mi3105is-s/Program/vga_blockdesign
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.1/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/mi3105is-s/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/mi3105is-s/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	209 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 532 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\mi3105is-s\Program\vga_blockdesign\project_2.xpr. Version: Vivado v2016.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 35 MB (+34228kb) [00:00:03]
+// [Engine Memory]: 398 MB (+265558kb) [00:00:03]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.xpr 
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 38 MB (+1308kb) [00:00:05]
+// [Engine Memory]: 490 MB (+75546kb) [00:00:05]
+// [Engine Memory]: 517 MB (+3116kb) [00:00:05]
+// [GUI Memory]: 43 MB (+2683kb) [00:00:06]
+// [GUI Memory]: 47 MB (+2200kb) [00:00:06]
+// [GUI Memory]: 53 MB (+3640kb) [00:00:06]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 545 MB (+2031kb) [00:00:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 545 MB. GUI used memory: 37 MB. Current time: 10/3/17 7:37:54 PM CEST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: project_2; location: C:/Users/mi3105is-s/Program/vga_blockdesign; part: xc7a100tcsg324-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 820.172 ; gain = 165.867 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// a:a (cv:JFrame): Critical Messages: addNotify
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Project 1-19] Could not find the file 'C:/Users/mi3105is-s/BigCar1.coe'.", 0); // d:a (JViewport:JComponent, a:a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Project 1-19] Could not find the file 'C:/Users/mi3105is-s/Program/project_2/project_2.ip_user_files/ip_repo/gpu_0_1/gpu_0.xci'.", 1); // d:a (JViewport:JComponent, a:a)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+// [GUI Memory]: 57 MB (+2145kb) [00:00:28]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci)]", 2, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/mi3105is-s/Program/project_2/project_2.ip_user_files/ip_repo/gpu_0_1/gpu_0.xci 
+// [GUI Memory]: 61 MB (+1236kb) [00:00:32]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, BigCar1.coe]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files, BigCar1.coe]", 3, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files C:/Users/mi3105is-s/BigCar1.coe 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+// [GUI Memory]: 68 MB (+3311kb) [00:00:45]
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bL:g (cv:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bL:g (cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Peripheral ;  ;  ;  ; ", 1); // O:as (JViewport:JComponent, cv:JFrame)
+// [Engine Memory]: 587 MB (+14999kb) [00:00:57]
+// HMemoryUtils.trashcanNow. Engine heap size: 587 MB. GUI used memory: 41 MB. Current time: 10/3/17 7:38:45 PM CEST
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpu_v1.0 ; AXI4 ; Pre-Production ; Included ; lth.se:user:gpu:1.0", 2, "gpu_v1.0", 0, false); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpu_v1.0 ; AXI4 ; Pre-Production ; Included ; lth.se:user:gpu:1.0", 2, "gpu_v1.0", 0, false, false, false, false, true, false); // O:as (JViewport:JComponent, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceAtoD.CoreTreeTablePanel_DELETE_IP, "Delete IP"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// 'c' command handler elapsed time: 6 seconds
+selectButton("PAResourceEtoH.EditDelete_REMOVING_IP_WILL_DELETE_ALL_ITS_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Elapsed time: 21 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0, "User Repository", 0, true); // O:as (JViewport:JComponent, cv:JFrame) - Node
+// Elapsed time: 27 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0, "User Repository", 0, true); // O:as (JViewport:JComponent, cv:JFrame) - Node
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "User Repository ;  ;  ;  ; ", 0, "User Repository", 0, true, false, false, false, true, false); // O:as (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_IP_SETTINGS, "IP Settings..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_IP_SETTINGS
+// Project Settings: addNotify
+// [GUI Memory]: 75 MB (+3692kb) [00:02:02]
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_GENERAL, "General", 0); // g:JideTabbedPane (z:bc, k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // y:JideButton (CommandBar:DockableBar, k:aP)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_GENERAL, "General", 0); // g:JideTabbedPane (z:bc, k:aP)
+selectComboBox(PAResourceOtoP.ProjectSettingsIPPage_IP_LOCATION, "<Local to Project>", 0); // f:JComboBox (JPanel:JComponent, k:aP)
+selectComboBox(PAResourceOtoP.ProjectSettingsIPPage_IP_LOCATION, "Choose Location...", 1); // f:JComboBox (JPanel:JComponent, k:aP)
+setFolderChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new");
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_REPOSITORY_MANAGER, "Repository Manager", 1); // g:JideTabbedPane (z:bc, k:aP)
+selectButton(PAResourceOtoP.ProjectSettingsIPRepositoryPanel_ADD_REPOSITORY, "Add Repository"); // y:JideButton (CommandBar:DockableBar, k:aP)
+setFolderChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo'. 
+// c:y (k:aP): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a:JButton (JPanel:JComponent, c:y)
+dismissDialog("Add Repository"); // c:y (k:aP)
+selectTab(PAResourceOtoP.ProjectSettingsIPPage_TABBED_PANE, PAResourceOtoP.ProjectSettingsIPPage_GENERAL, "General", 0); // g:JideTabbedPane (z:bc, k:aP)
+selectButton("APPLY", "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+selectButton("OK", "OK"); // JButton:AbstractButton (ButtonPanel:JPanel, k:aP)
+dismissDialog("Project Settings"); // k:aP (cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Basic Elements ;  ;  ;  ; ", 7, (String) null, -1, true, false, false, false, true, false); // O:as (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_REFRESH_ALL_REPOSITORIES, "Refresh All Repositories"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// [GUI Memory]: 83 MB (+4567kb) [00:02:41]
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo'. 
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Peripheral ;  ;  ;  ; ", 1); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpu_v1.0 ; AXI4 ; Pre-Production ; Included ; lth.se:user:gpu:1.0", 2, "gpu_v1.0", 0, false); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpu_v1.0 ; AXI4 ; Pre-Production ; Included ; lth.se:user:gpu:1.0", 2, "gpu_v1.0", 0, false); // O:as (JViewport:JComponent, cv:JFrame)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpu_v1.0 ; AXI4 ; Pre-Production ; Included ; lth.se:user:gpu:1.0", 2); // O:as (JViewport:JComponent, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "gpu_v1.0 ; AXI4 ; Pre-Production ; Included ; lth.se:user:gpu:1.0", 2, "gpu_v1.0", 0, false, false, false, false, false, true); // O:as (JViewport:JComponent, cv:JFrame) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// p:g (cv:JFrame): Customize IP: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+// HMemoryUtils.trashcanNow. Engine heap size: 611 MB. GUI used memory: 47 MB. Current time: 10/3/17 7:40:35 PM CEST
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // p:g (cv:JFrame)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name gpu -vendor lth.se -library user -version 1.0 -module_name gpu_0 -dir C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/gpu_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'gpu_0'... 
+// aD:x (cv:JFrame): Generate Output Products: addNotify
+// [Engine Memory]: 617 MB (+642kb) [00:02:48]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+selectRadioButton(PAResourceQtoS.SimpleOutputProductDialog_SYNTHESIZE_DESIGN_GLOBALLY, "Global"); // a:JRadioButton (JPanel:JComponent, aD:x)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, aD:x)
+// bL:g (cv:JFrame):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property generate_synth_checkpoint false [get_files  c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/gpu_0.xci] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/gpu_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'gpu_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gpu_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'gpu_0'... INFO: [IP_Flow 19-1686] Generating 'Software Driver' target for IP 'gpu_0'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/gpu_0.xci] -no_script -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: export_simulation -of_objects [get_files c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/gpu_0.xci] -directory C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files -ipstatic_source_dir C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ipstatic -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci)]", 2); // z:k (G:JPanel, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 48 MB. Current time: 10/3/17 7:40:50 PM CEST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd)]", 3, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd)]", 3, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd)]", 3); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd)]", 4, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd)]", 4, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd)]", 4); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [Engine Memory]: 653 MB (+6374kb) [00:03:37]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_ref.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_v1_0_S00_AXI.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 90 MB (+3094kb) [00:03:45]
+// Elapsed time: 23 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10); // z:k (G:JPanel, cv:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 96 MB (+1710kb) [00:04:38]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 43 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd), vga_ref_ins - vga_ref]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd), vga_ref_ins - vga_ref]", 6, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Alliance Partners ;  ;  ;  ; ", 4, "Alliance Partners", 0, true, false, false, false, true, false); // O:as (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_REFRESH_ALL_REPOSITORIES, "Refresh All Repositories"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo'. 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 659 MB. GUI used memory: 57 MB. Current time: 10/3/17 7:44:20 PM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// Elapsed time: 65 seconds
+setFileChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd");
+// 'dv' command handler elapsed time: 65 seconds
+// Tcl Message: update_files -from_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -to_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -filesets [get_filesets *] 
+// Tcl Message: ERROR: [Vivado 12-3481] Cannot replace a file with itself: 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd' 
+// a:a (cv:JFrame): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd");
+// 'dv' command handler elapsed time: 3 seconds
+// Tcl Message: update_files -from_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -to_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -filesets [get_filesets *] 
+// Tcl Message: ERROR: [Vivado 12-3481] Cannot replace a file with itself: 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd' 
+// a:a (cv:JFrame): Critical Messages: addNotify
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, "SourcesView", (HResource) null, "Hierarchy", 3, true, false); // g:JideTabbedPane (N:aK, cv:JFrame) - Popup Trigger
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // i:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+// [GUI Memory]: 103 MB (+2221kb) [00:08:05]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// Elapsed time: 32 seconds
+setFileChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd");
+// 'dv' command handler elapsed time: 32 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd -to_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd' with file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd'. INFO: [filemgmt 20-1080] Importing file from 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd' to 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Communication & Networking ;  ;  ;  ; ", 9, (String) null, -1, true, false, false, false, true, false); // O:as (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_REFRESH_ALL_REPOSITORIES, "Refresh All Repositories"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo'. 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd)]", 8, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd -to_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd' with file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd'. INFO: [filemgmt 20-1080] Importing file from 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd' to 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceQtoS.SrcMenu_REFRESH_HIERARCHY, "Refresh Hierarchy"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "AXI Infrastructure ;  ;  ;  ; ", 6, (String) null, -1, true, false, false, false, true, false); // O:as (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.CoreAndInterfacesBaseTreeTablePanel_REFRESH_ALL_REPOSITORIES, "Refresh All Repositories"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip_repo'. 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_ref.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 10, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd");
+// 'dv' command handler elapsed time: 6 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd -to_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd' with file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd'. INFO: [filemgmt 20-1080] Importing file from 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd' to 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+setFileChooser("C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd");
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd -to_files C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd' with file 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd'. INFO: [filemgmt 20-1080] Importing file from 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/hdl/vga_ref.vhd' to 'C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/vga_ref.vhd'. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 688 MB (+1566kb) [00:10:46]
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 114 MB (+6519kb) [00:10:46]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 688 MB. GUI used memory: 68 MB. Current time: 10/3/17 7:48:35 PM CEST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // i:l (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 261, 31); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 261, 31, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vga_ref.vhd", 249, 46); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 249, 46, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vga_ref.vhd", 249, 46); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 249, 46); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 249, 46, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vga_ref.vhd", 249, 46); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_v1_0_S00_AXI.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_ref.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_v1_0_S00_AXI.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_ref.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 204, 26); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 204, 26, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vga_ref.vhd", 204, 26); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 204, 26); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 204, 26); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 204, 26); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 145, 25); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 145, 25, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("vga_ref.vhd", 145, 25); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 92, 44); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd)]", 5); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd), vga_ref_ins - vga_ref]", 6, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci), gpu_0 - gpu_0_arch (gpu_0.vhd), U0 - gpu_v1_0 - arch_imp (gpu_v1_0.vhd), gpu_v1_0_S00_AXI_inst - gpu_v1_0_S00_AXI - arch_imp (gpu_v1_0_S00_AXI.vhd), vga_ref_ins - vga_ref]", 6, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // ab:JMenu (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_GOTO_INSTANTIATION, "Go To Source"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_INSTANTIATION
+// Elapsed time: 19 seconds
+selectButton((HResource) null, "Sources_FileSetView.filterMissingAction"); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): TRUE
+selectButton(RDIResource.HToolBar_AUTOMATICALLY_SCROLL_TO_SELECTED_OBJECTS, "Sources_autoscroll_to_selection"); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): FALSE
+selectButton((HResource) null, "Sources_FileSetView.filterMissingAction"); // s:JideToggleButton (CommandBar:DockableBar, cv:JFrame): FALSE
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci)]", 7); // z:k (G:JPanel, cv:JFrame)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_ref.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_v1_0_S00_AXI.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_v1_0.vhd", 3); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_v1_0_S00_AXI.vhd", 4); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "vga_ref.vhd", 5); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, gpu_0 (gpu_0.xci)]", 7, true); // z:k (G:JPanel, cv:JFrame) - Node
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", false); // h:JCheckBox (JPanel:JComponent, aB:g): FALSE
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, aB:g)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aB:g (cv:JFrame): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aB:g)
+dismissDialog("Remove Sources"); // aB:g (cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// Tcl Message: remove_files c:/Users/mi3105is-s/Program/vga_blockdesign/project_2.srcs/sources_1/new/gpu_0/gpu_0.xci 
+// Tcl Message: file delete -force C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/ip/gpu_0 C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.ip_user_files/sim_scripts/gpu_0 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 7); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Coefficient Files]", 7); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 10); // z:k (G:JPanel, cv:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 9); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 21 seconds
+selectCodeEditor("vga_ref.vhd", 35, 154); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 60, 403); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 137, 385); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("vga_ref.vhd", 134, 385); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd)]", 1); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_BramForeground - BramForeground - Behavioral (Foreground_top.vhd)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_BramForeground - BramForeground - Behavioral (Foreground_top.vhd)]", 2, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_BramForeground - BramForeground - Behavioral (Foreground_top.vhd), Inst_Address_counter_Foreground - Address_counter_foreground - Behavioral (Foreground_Address_Gen.vhd)]", 3, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_BramForeground - BramForeground - Behavioral (Foreground_top.vhd), Inst_Address_counter_Foreground - Address_counter_foreground - Behavioral (Foreground_Address_Gen.vhd)]", 3, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("Foreground_Address_Gen.vhd", 491, 408); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Foreground_Address_Gen.vhd", 307, 249); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Foreground_Address_Gen.vhd", 505, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 30 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_0.vhd", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "gpu_0.vhd", 2, true, false); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame) - Popup Trigger
+selectMenuItem((HResource) null, "Close Others"); // JMenuItem:AbstractButton (JidePopupMenu:JPopupMenu)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ad:aK
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // u:aK
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_background - Background - Behavioral (Background.vhd)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_background - Background - Behavioral (Background.vhd)]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 354 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "clk ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 3, (String) null, 2, true); // W:as (JViewport:JComponent, cv:JFrame) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_BramForeground - BramForeground - Behavioral (Foreground_top.vhd)]", 2, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_background - Background - Behavioral (Background.vhd)]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, vga_ref - Behavioral (vga_ref.vhd), Inst_background - Background - Behavioral (Background.vhd)]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 202, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 171, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Background.vhd", 321, 483); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 321, 483, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 321, 483); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 429, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 203, 382); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 203, 382, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 267, 336); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 267, 336, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 307, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 307, 399, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 277, 429); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 277, 429, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 179, 331); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 356, 555); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 356, 555, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 329, 381); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 329, 381, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 400, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 400, 436, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 281, 535); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 272, 495); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Oct 03 20:00:24 2017] Launched synth_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/synth_1/runme.log [Tue Oct 03 20:00:24 2017] Launched impl_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 163 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bL:g (cv:JFrame):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.1   **** Build date : Apr  8 2016-16:12:32     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 907.582 ; gain = 0.000 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274674772A 
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/vga_ref.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [GUI Memory]: 121 MB (+705kb) [00:25:31]
+dismissDialog("Auto Connect"); // bL:g (cv:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a100t_0 (1) ; Programmed", 2, "xc7a100t_0 (1)", 0, true); // i:as (JViewport:JComponent, cv:JFrame) - Node
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a100t_0 (1) ; Programmed", 2, "xc7a100t_0 (1)", 0, true, false, false, false, true, false); // i:as (JViewport:JComponent, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 116 MB. Current time: 10/3/17 8:03:21 PM CEST
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/vga_ref.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 127 MB (+642kb) [00:25:52]
+// [Engine Memory]: 723 MB (+552kb) [00:26:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 748 MB. GUI used memory: 90 MB. Current time: 10/3/17 8:04:32 PM CEST
+// Elapsed time: 61 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/vga_ref.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Background.vhd", 102, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 102, 162, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 102, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 54, 270); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 54, 270, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 80, 260); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 80, 260, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 123, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 93, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 93, 261, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("Background.vhd", 436, 319); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 263, 278); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 29, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 29, 281, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 1, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 772 MB. GUI used memory: 90 MB. Current time: 10/3/17 8:05:47 PM CEST
+// [Engine Memory]: 772 MB (+13667kb) [00:28:01]
+selectCodeEditor("Background.vhd", 93, 267); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 95, 265); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 386, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 478, 264); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 413, 287); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 432, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Background.vhd", 441, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 441, 280, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 441, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 534, 261); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 534, 261, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 197, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 95, 257); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 95, 257, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 136, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 136, 147, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 136, 147); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 115, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 99, 166); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 87, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 91, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 152, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 234, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 194, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 264, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 264, 418, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 264, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 373, 414); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Background.vhd", 287, 425); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 287, 425, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 81, 113); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 81, 113, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 216, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 216, 431, false, true, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 182, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 182, 108, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 315, 433); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 315, 433, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 306, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 306, 432, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 306, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 327, 546); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 296, 569); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 296, 569, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 156, 550); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 161, 556); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 105, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 105, 233, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 413, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 349, 436, false, false, false, true, false); // bH:N (JPanel:JComponent, cv:JFrame) - Popup Trigger
+selectCodeEditor("Background.vhd", 296, 407); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 373, 421); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 205, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 205, 200, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 205, 200); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 290, 416); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 266, 426); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 266, 426, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 174, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 174, 448, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 330, 431); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 330, 431, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 326, 455); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 326, 455, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 198, 437); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 198, 437, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 215, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 215, 448, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 215, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 146, 434); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 435, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 448, 517); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 311, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 311, 384, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 311, 384); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 276, 532); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 276, 532, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 112, 535); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 323, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 229, 149); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 229, 149, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 323, 11); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 323, 11, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 449, 538); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 449, 538, false, true, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("Background.vhd", 413, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 413, 280, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 413, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 415, 493); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 331, 518); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 330, 518, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 237, 516); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 307, 127); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 307, 127, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 516); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 516, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 363, 501); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 460, 516); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 134 MB (+445kb) [00:31:21]
+// Elapsed time: 14 seconds
+selectCodeEditor("Background.vhd", 196, 502); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 197, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 197, 284, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 197, 284); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 149, 518); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 149, 518, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 141, 524); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 424, 520); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Background.vhd", 314, 535); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 314, 535, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 720, 509); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 700, 335); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 332, 503); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 332, 503, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 275, 457); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 264, 478); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 208, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 198, 473); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Background.vhd", 343, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("Background.vhd", 125, 113); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 125, 113, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 125, 113); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 108, 126); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 108, 126, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 584, 135); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 77, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 97, 124); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("Background.vhd", 135, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 135, 231, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 135, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 72, 242); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 103, 396); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 103, 396, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 117, 244); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 225, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 247, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 247, 228, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 247, 228); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 401, 235); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 251); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 245); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 245, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 83, 36); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 83, 36, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 228, 248); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 363, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 346, 400); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 306, 378); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 306, 378, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 306, 378, false, true, false, false, false); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 284, 418); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 284, 418, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 204, 248); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 204, 248, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 186, 419); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 186, 419, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 357, 415); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 236, 419); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 236, 419, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 828, 510); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 824, 504); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 211, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 194, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 261, 425); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 256, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 256, 436, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 256, 436, false, true, false, false, false); // bH:N (JPanel:JComponent, cv:JFrame) - Control Key
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 412, 436); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 228, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 228, 452, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 181, 463); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 181, 463, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 193, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 193, 452, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 298, 452); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 298, 452, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 135, 456); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 135, 456, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 127, 461); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 127, 461, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 279, 449); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 279, 449, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 188, 451); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 140, 466); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 140, 466, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 140, 466); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 459, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 337, 442); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 337, 442, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 336, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 336, 432, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 336, 432); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 326, 454); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 326, 454, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 171, 302); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 171, 302, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 292, 448); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 292, 448, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 389, 450); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 389, 450, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 285, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 285, 293, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 285, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 411, 465); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 482, 488); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 281, 508); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 281, 508, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 109, 499); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 444, 499); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 444, 509); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 451); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 367, 451, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 354, 444); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 266, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 266, 325, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 266, 325); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 233, 471); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 233, 471, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 192, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 192, 281, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 192, 281); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 156, 483); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 156, 483, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 141, 484); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 257, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 257, 293, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 257, 293); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 233, 498); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 233, 498, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 320, 501); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 386, 399); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 386, 399, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 802, 466); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 327, 469); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 327, 469, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 151, 422); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 151, 422, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 151, 422); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 148, 500); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 148, 500, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Tue Oct 03 20:14:17 2017] Launched synth_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// Elapsed time: 39 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cv:JFrame)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_Delete Files", "Delete Files"); // JButton:AbstractButton (JPanel:JComponent, T:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+selectCodeEditor("Background.vhd", 176, 470); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 176, 470, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 393, 468); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 345, 438); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 169, 464); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Background.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Tue Oct 03 20:15:30 2017] Launched synth_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// [GUI Memory]: 143 MB (+2037kb) [00:37:43]
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 90 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Tue Oct 03 20:17:01 2017] Launched impl_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 71 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Oct 03 20:18:13 2017] Launched impl_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 50 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager]", 26, true); // x:Y (w:G, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Hardware Manager, Program Device]", 28, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/vga_ref.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("Background.vhd", 198, 497); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 29 seconds
+selectCodeEditor("Background.vhd", 6, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 5, 435); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("Background.vhd", 857, 280); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 857, 280, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 708, 282); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 236, 327); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 236, 327, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Background.vhd", 271, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 271, 412, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 271, 412); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("Background.vhd", 406, 152); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 406, 152, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 411, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 411, 157, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 411, 157); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 170, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 169, 161, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 169, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 191, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 191, 231, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 191, 231); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 177, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 177, 195, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 177, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 256, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 256, 159, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 256, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 203, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 203, 114, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 203, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 867, 472); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 867, 472, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("Background.vhd", 816, 467); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("Background.vhd", 816, 467, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Tue Oct 03 20:21:50 2017] Launched synth_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // x:Y (w:G, cv:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 89 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Tue Oct 03 20:23:24 2017] Launched impl_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 88 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Tue Oct 03 20:24:53 2017] Launched impl_1... Run output will be captured here: C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 69 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ap:G)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ap:G)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // i:l (JPanel:JComponent, cv:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// aV:aj (cv:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, aV:aj)
+// bL:g (cv:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // aV:aj (cv:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/mi3105is-s/Program/vga_blockdesign/project_2.runs/impl_1/vga_ref.bit} [lindex [get_hw_devices] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'A' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bL:g (cv:JFrame)

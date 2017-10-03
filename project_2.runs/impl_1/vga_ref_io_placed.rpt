@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
-| Date         : Tue Oct 03 16:42:01 2017
-| Host         : fox-17 running 64-bit major release  (build 9200)
+| Date         : Tue Oct 03 20:23:55 2017
+| Host         : fox-19 running 64-bit major release  (build 9200)
 | Command      : report_io -file vga_ref_io_placed.rpt
 | Design       : vga_ref
 | Device       : xc7a100t

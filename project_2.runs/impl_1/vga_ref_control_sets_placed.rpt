@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
-| Date         : Tue Oct 03 16:42:01 2017
-| Host         : fox-17 running 64-bit major release  (build 9200)
+| Date         : Tue Oct 03 20:23:55 2017
+| Host         : fox-19 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file vga_ref_control_sets_placed.rpt
 | Design       : vga_ref
 | Device       : xc7a100t
@@ -23,7 +23,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |    10 |
-| Unused register locations in slices containing registers |    52 |
+| Unused register locations in slices containing registers |    53 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,31 +33,31 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |               4 |            2 |
+| No           | No                    | No                     |               3 |            2 |
 | No           | No                    | Yes                    |               1 |            1 |
-| No           | Yes                   | No                     |              16 |            6 |
+| No           | Yes                   | No                     |              16 |            7 |
 | Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |              84 |           24 |
-| Yes          | Yes                   | No                     |              11 |            4 |
+| Yes          | No                    | Yes                    |              84 |           27 |
+| Yes          | Yes                   | No                     |              11 |            5 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
 3. Detailed Control Set Information
 -----------------------------------
 
-+-----------------------------------------------+-----------------------------------------+------------------------------------+------------------+----------------+
-|                  Clock Signal                 |              Enable Signal              |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
-+-----------------------------------------------+-----------------------------------------+------------------------------------+------------------+----------------+
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                         | vgactrl640_60/HS0                  |                1 |              1 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                         | vgactrl640_60/VS0                  |                1 |              1 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                         | rst_IBUF                           |                1 |              1 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                         | vgactrl640_60/SR[0]                |                1 |              3 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                         |                                    |                2 |              4 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                         | vgactrl640_60/hcounter[10]_i_1_n_0 |                3 |             11 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | vgactrl640_60/vcounter[10]_i_2_n_0      | vgactrl640_60/vcounter[10]_i_1_n_0 |                4 |             11 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | vgactrl640_60/address_count_reg_reg[12] | rst_IBUF                           |                4 |             13 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | vgactrl640_60/E[0]                      | rst_IBUF                           |                4 |             19 |
-|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | vgactrl640_60/black_next2               | rst_IBUF                           |               16 |             52 |
-+-----------------------------------------------+-----------------------------------------+------------------------------------+------------------+----------------+
++-----------------------------------------------+----------------------------------------------------------------------------------+------------------------------------+------------------+----------------+
+|                  Clock Signal                 |                                   Enable Signal                                  |          Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-----------------------------------------------+----------------------------------------------------------------------------------+------------------------------------+------------------+----------------+
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                                                                  | vgactrl640_60/HS0                  |                1 |              1 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                                                                  | vgactrl640_60/VS0                  |                1 |              1 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                                                                  | rst_IBUF                           |                1 |              1 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                                                                  |                                    |                2 |              3 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                                                                  | vgactrl640_60/SR[0]                |                1 |              3 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 |                                                                                  | vgactrl640_60/hcounter[10]_i_1_n_0 |                4 |             11 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | vgactrl640_60/eqOp                                                               | vgactrl640_60/vcounter[10]_i_1_n_0 |                5 |             11 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | Inst_BramForeground/Inst_Address_counter_Foreground/address_count_reg[0]_i_1_n_0 | rst_IBUF                           |                4 |             13 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | vgactrl640_60/E[0]                                                               | rst_IBUF                           |                7 |             19 |
+|  Inst_clock_gen/clk_i/clk_wiz_0/inst/clk_out1 | Inst_background/black_next2                                                      | rst_IBUF                           |               16 |             52 |
++-----------------------------------------------+----------------------------------------------------------------------------------+------------------------------------+------------------+----------------+
 
 

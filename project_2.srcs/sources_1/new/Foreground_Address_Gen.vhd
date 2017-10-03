@@ -64,7 +64,7 @@ begin
                                 if (hcount >= hcount_con_start and hcount < hcount_con_stop and  vcount >= hcount_con_start and  vcount < hcount_con_stop) then 
                                          background_en_next <=  '0';            
                                          address_count_next <= address_count_reg+1;
-                                        --HERE THE IF ABOUT THE COLOUR
+                                        
                                         if (fgd_rgb_tocount = COLOR_WHITE) then
                                             background_en_next <=  '1';
                                         else
